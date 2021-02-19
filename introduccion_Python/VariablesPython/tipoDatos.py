@@ -7,3 +7,9 @@ print(x)
 print(y)
 print(z)
 print(z1)
+
+
+type(x)
+type(y)
+type(z)
+type(z1)
