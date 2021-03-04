@@ -26,4 +26,24 @@ if "Renid" in nombreLista:
     print("Reni si existe en la lista")
 else:
     print("El elemento buscado no existe en la lista"        )
-
+# Agregar un elemento a la lista
+nombreLista.append("Tavo")
+print(nombreLista)
+# Agregar un elemento en cualquier indice
+nombreLista.insert(1,"HOLA")
+print(nombreLista)
+# Remover un elemento
+nombreLista.remove("HOLA")
+print(nombreLista)
+# Remover el ultimo elemento de la lista
+nombreLista.pop()
+print(nombreLista)
+# Remover el indice indicado de la lista
+del nombreLista[0]
+print(nombreLista)
+# Limpiar todos los elementos de la lista
+nombreLista.clear()
+print(nombreLista)
+# Eliminar por completo la lista
+del nombreLista
+print(nombreLista)
