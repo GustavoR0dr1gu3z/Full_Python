@@ -3,7 +3,9 @@ class Aritmetica:
         self.num1 = num1
         self.num2 = num2
 
-def sumar(self):
+    def sumar(self):
     return self.num1 + self.num2 
 
-    
+# Crear un objeto
+ari = Aritmetica(2, 4)
+print("Resultado: ",ari.sumar())
