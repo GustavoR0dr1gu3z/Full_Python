@@ -4,7 +4,7 @@ class Aritmetica:
         self.num2 = num2
 
     def sumar(self):
-    return self.num1 + self.num2 
+        return self.num1 + self.num2 
 
 # Crear un objeto
 ari = Aritmetica(2, 4)
