@@ -14,3 +14,5 @@ class Empleado(Persona): # Empleado HEREDA de Persona
 
 persona = Persona("Gustavo", 21)
 print(persona)
+
+empleado = Empleado("Gustavo",21,500)
