@@ -12,9 +12,11 @@ class Empleado(Persona): # Empleado HEREDA de Persona
         self.sueldo = sueldo
 
     def __str__(self):
-        return super().__str__() + ", Sueldo" + str(sueldo)
+        return super().__str__() + ", Sueldo: " + str(self.sueldo)
 
 persona = Persona("Gustavo", 21)
 print(persona)
 
 empleado = Empleado("Gustavo",21,500)
+print(empleado)
+
