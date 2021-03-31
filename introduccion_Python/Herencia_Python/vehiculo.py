@@ -1,33 +1,31 @@
 class Vehiculo:
-    def __init__(self, marca, modelo, color):
-        self.marca = marca
-        self.modelo = modelo
+    def __init__(self,color, ruedas):
         self.color = color
+        self.ruedas = ruedas
 
     def __str__(self):
-        return "Vehiculo marca: "+self.marca+", modelo: "+str(self.modelo)+", color: "+self.color 
+        return "color: "+self.color+", ruedas: "+str(self.ruedas)    
 
 class Coche(Vehiculo):
-    def __init__(self, marca, modelo, color, combustible):
-        super().__init__(marca, modelo, color)
-        self.combustible = combustible
+    def __init__(self,color, ruedas, velocidad):
+        super().__init__(color, ruedas)
+        self.velocidad = velocidad
 
     def __str__(self):
-        return super().__str__()+", combustible: "+self.combustible
+        return super().__str__()+" , velocidad: "+str(self.velocidad)+" km/h"
 
 class Bicicleta(Vehiculo):
-    def __init__(self, marca, modelo, color, tamaño):
-        super().__init__(marca, modelo, color)
-        self.tamaño = tamaño
+    def __init__(self,color, ruedas, tipo):
+        super().__init__(color, ruedas)
+        self.tipo = tipo 
     
     def __str__(self):
-        return super().__str__()+", tamaño: "+self.tamaño
+        return super().__str__()+" , tipo: "+self.tipo
 
-
-coche = Coche("Nissan",2019,"Rojo","Gasolina")
+coche = Coche("Rojo", 4, 80)
 print("Coche: \n")
 print(coche)
 
-bici = Bicicleta("Nosejaja", 2021, "Rojo", "Grandota")
+bici = Bicicleta("Azul", 2, "Rural")
 print("\n\nBicicleta: \n")
 print(bici)
