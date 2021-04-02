@@ -23,6 +23,9 @@ class MiClase:
     def metodo_instancia(self):
         self.metodo_estatico()
         self.metodo_clase()
+        print(self.variable_clase)
+        print(self.variable_instancia)
+
 
 MiClase.metodo_estatico()
 MiClase.metodo_clase()
