@@ -8,6 +8,9 @@ class Orden:
         self.__productos = productos
 
     def __str__(self):
+        # Listado de productos de productos
         productos_str = ""
         for producto in self.__productos:
             productos_str += producto.__str__()+" | " # Concatenamos con la clase str de producto.py
+        return "Orden: "+str(self.__id_orden)+", Productos: "+productos_str
+
