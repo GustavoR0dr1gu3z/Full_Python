@@ -7,4 +7,7 @@ class Orden:
         self.__id_orden = Orden.contador_ordenes
         self.__productos = productos
 
-    
+    def __str__(self):
+        productos_str = ""
+        for producto in self.__productos:
+            productos_str += producto.__str__()+" | " # Concatenamos con la clase str de producto.py
