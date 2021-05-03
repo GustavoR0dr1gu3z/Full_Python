@@ -29,6 +29,7 @@ orden3.agregar_producto(producto4)
 # SE IMPRIME
 print(orden3)
 
-
+# SE IMPRIME EL TOTAL DE LA ORDEN
+print(orden2.calcular_total())
 
 
