@@ -7,3 +7,5 @@ producto3 = Producto("Calcetines",50.00)
 
 productos = [producto1, producto2]
 print(productos)
+
+orden1 = Orden(productos)
