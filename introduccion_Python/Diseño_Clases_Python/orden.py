@@ -12,8 +12,8 @@ class Orden:
 
     def calcular_total(self):
         total = 0.0
-        for i in range(len(self.__productos)):
-            total += i.__init__().__precio
+        for i in self.__productos:
+            total += i.__precio
         return total
 
     def __str__(self):
