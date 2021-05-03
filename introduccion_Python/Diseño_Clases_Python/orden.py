@@ -1,6 +1,6 @@
 class Orden:
     contador_ordenes = 0
-    producto = []
+    
 
     def __init__(self, productos):
         Orden.contador_ordenes += 1
@@ -8,7 +8,7 @@ class Orden:
         self.__productos = productos
 
     def agregar_producto(self, producto):
-        Orden.producto.append(producto)
+        self.__productos.append(producto)
         return producto     
 
     def calcular_total(self):
