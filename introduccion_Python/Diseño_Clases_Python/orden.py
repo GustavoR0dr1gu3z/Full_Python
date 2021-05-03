@@ -12,7 +12,10 @@ class Orden:
         return producto     
 
     def calcular_total(self):
-        pass
+        total = 0.0
+        for i in range(len(self.__productos)):
+            total += producto[i].Producto.__precio
+        return total
 
     def __str__(self):
         # Listado de productos de productos
