@@ -9,3 +9,7 @@ productos = [producto1, producto2]
 
 orden1 = Orden(productos)
 print(orden1)
+
+productos.append(producto3)
+orden2 = Orden(productos)
+print(orden2)
