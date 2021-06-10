@@ -6,7 +6,7 @@ b = 3
 print(a+b)
 
 # Se comporta como cadena
-a = 'hola'
+a = 'hola '
 b = 'mundo'
 print(a+b)
 
