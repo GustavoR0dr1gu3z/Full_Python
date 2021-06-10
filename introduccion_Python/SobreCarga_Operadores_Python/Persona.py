@@ -10,6 +10,6 @@ class Persona:
 p1 = Persona('Gus')
 p2 = Persona('Tavo')
 
-print('Nombre concatenado: '+p1+p2)
+print('Nombre concatenado: ',p1+p2)
 # ob1 + ob2
 # ob1.__add__(ob2)
