@@ -5,6 +5,7 @@ def imprimir_detalles(objeto):
     print(objeto)
     print(type(objeto))
     print(objeto.mostrar_detalles())
+    print(objeto.departamento)
 
 
 empleado = Empleado('Gustavo',5000)
