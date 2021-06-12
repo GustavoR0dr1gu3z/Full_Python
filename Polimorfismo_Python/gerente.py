@@ -7,5 +7,5 @@ class Gerente(Empleado):
         self.departamento = departamento
 
     def __str__(self):
-        return 'Gerente {}, Departamento: {}'.format(self.departamento)
+        return 'Gerente {}, Departamento: {}'.format(super().__str__(), self.departamento)
 
