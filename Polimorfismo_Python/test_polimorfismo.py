@@ -8,3 +8,6 @@ def imprimir_detalles(objeto):
 
 empleado = Empleado('Gustavo',5000)
 imprimir_detalles(empleado)
+
+gerente = Gerente('Karla',6000, 'Sistemas')
+imprimir_detalles(gerente)
