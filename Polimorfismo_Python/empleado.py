@@ -9,3 +9,5 @@ class Empleado:
         return 'Empleado: {}, Sueldo: {}'.format(self.nombre, self.sueldo)
 
 
+    def mostrar_detalles(self):
+        return self.__str__()
