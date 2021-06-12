@@ -5,6 +5,7 @@ def imprimir_detalles(objeto):
     print(objeto)
     print(type(objeto))
     print(objeto.mostrar_detalles())
+    # Si es objeto que estamos apuntando es de tipo Gerente, entonces imprime el departamento
     if isinstance(objeto, Gerente):
         print(objeto.departamento)
 
