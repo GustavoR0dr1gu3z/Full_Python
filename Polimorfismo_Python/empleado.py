@@ -7,3 +7,5 @@ class Empleado:
 
     def __str__(self):
         return 'Empleado: {}, Sueldo: {}'.format(self.nombre, self.sueldo)
+
+
