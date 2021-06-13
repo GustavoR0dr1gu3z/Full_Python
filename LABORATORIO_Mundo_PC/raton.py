@@ -11,7 +11,7 @@ class Raton(DispositivoEntrada):
 
 
     def __str__(self):
-        return "ID Raton: {}, Marca: {}, Tipo_Entrada: {}".format(self._id_raton, self._marca, self._tipo_entrada)
+        return "ID Raton: {}, Marca: {}, Tipo_Entrada: {}".format(self._id_raton, self.marca, self.tipo_entrada)
 
 
 r1 = Raton('HP', 'USB')
