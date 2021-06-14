@@ -7,3 +7,6 @@ class Teclado(DispositivoEntrada):
         Teclado.contador_teclado +=1
         self._id_teclado = Teclado.contador_teclado
         super().__init__(marca, tipo_entrada)
+
+    def __str__(self):
+        return "ID Teclado: {}, Marca: {}, Tipo de Entrada: {}".format(self)
