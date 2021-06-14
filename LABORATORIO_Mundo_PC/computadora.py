@@ -16,7 +16,7 @@ class Computadora:
     def __str__(self):
         return "{}: {}\nMonitor: {}\nTeclado: {}\nRaton: {}\n\n".format(self._nombre, self._id_Computadora, self._monitor, self._teclado, self._raton)
 
-
+'''
 if __name__ == '__main__':
 
 # OBJETO 1
@@ -34,3 +34,4 @@ if __name__ == '__main__':
 
     c2 = Computadora('Acer',m2,t2,r2)
     print(c2)     
+'''
