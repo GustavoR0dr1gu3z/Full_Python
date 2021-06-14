@@ -9,4 +9,4 @@ class Teclado(DispositivoEntrada):
         super().__init__(marca, tipo_entrada)
 
     def __str__(self):
-        return "ID Teclado: {}, Marca: {}, Tipo de Entrada: {}".format(self)
+        return "ID Teclado: {}, Marca: {}, Tipo de Entrada: {}".format(self._id_teclado, self.marca, self.tipo_entrada)
