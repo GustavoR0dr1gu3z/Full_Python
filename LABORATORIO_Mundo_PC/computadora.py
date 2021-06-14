@@ -17,9 +17,10 @@ class Computadora:
         return "{}: {}\nMonitor: {}\nTeclado: {}\nRaton: {}".format(self._nombre, self._id_Computadora, self._monitor, self._teclado, self._raton)
 
 
-t1 = Teclado('HP', 'USB')        
-r1 = Raton('HP', 'USB')
-m1 = Monitor('HP',15)
+if __name__ == '__main__':
+    t1 = Teclado('HP', 'USB')        
+    r1 = Raton('HP', 'USB')
+    m1 = Monitor('HP',15)
 
-c1 = Computadora('HP',m1,t1,r1)
-print(c1)
+    c1 = Computadora('HP',m1,t1,r1)
+    print(c1)
