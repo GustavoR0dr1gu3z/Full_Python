@@ -4,7 +4,7 @@ class Orden:
     def __init__(self, computadoras):
         Orden.contador_orden += 1
         self._id_orden = Orden.contador_orden
-        self.computadoras = computadoras
+        self._computadoras = computadoras
 
     def agregar(self, computadora):
         self._computadoras.append(computadora)
@@ -13,3 +13,4 @@ class Orden:
         computadoras_str = ""
         for comp in self._computadoras:
             computadoras_str += comp.__str__() 
+        return "Orden: {}\nComputadoras: {}".format(self._id_orden,computadoras_str)
