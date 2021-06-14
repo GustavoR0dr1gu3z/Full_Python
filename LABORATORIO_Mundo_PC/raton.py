@@ -14,8 +14,10 @@ class Raton(DispositivoEntrada):
         return "ID Raton: {}, Marca: {}, Tipo_Entrada: {}".format(self._id_raton, self.marca, self.tipo_entrada)
 
 
+'''
 # Objetos de prueba
 if __name__ == '__main__':
     r1 = Raton('HP', 'USB')
     print(r1)
 
+'''
