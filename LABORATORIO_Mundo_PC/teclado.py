@@ -10,3 +10,8 @@ class Teclado(DispositivoEntrada):
 
     def __str__(self):
         return "ID Teclado: {}, Marca: {}, Tipo de Entrada: {}".format(self._id_teclado, self.marca, self.tipo_entrada)
+
+# Objetos de prueba
+if __name__ == '__main__':
+    tec1 = Teclado('HP', 'USB')
+    print(tec1)
