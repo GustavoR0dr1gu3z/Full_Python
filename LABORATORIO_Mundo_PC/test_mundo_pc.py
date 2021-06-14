@@ -2,6 +2,8 @@ from teclado import Teclado
 from raton import Raton
 from monitor import Monitor
 from computadora import Computadora
+from orden import Orden
+
 
 # OBJETO 1
 t1 = Teclado('HP', 'USB')        
@@ -19,4 +21,7 @@ m2 = Monitor('Acer',27)
 c2 = Computadora('Acer',m2,t2,r2)
 print(c2)     
 
+# Orden de las computadoras
 compus = [c1, c2]
+orden1 = Orden(compus)
+print(orden1)
