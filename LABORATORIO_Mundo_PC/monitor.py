@@ -6,4 +6,7 @@ class Monitor():
         self._id_monitor = Monitor.contador_monitor
         self.marca = marca
         self.tamaño = tamaño 
-        
+
+
+    def __str__(self):
+        return "ID Monitor: {}, Marca: {}, Tamaño: {}".format(self._id_monitor, self._marca, self.tamaño)
