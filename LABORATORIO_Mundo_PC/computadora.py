@@ -1,3 +1,7 @@
+from teclado import Teclado
+from raton import Raton
+from monitor import Monitor
+
 class Computadora: 
     contador_computadora = 0
 
