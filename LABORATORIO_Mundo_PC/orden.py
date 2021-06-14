@@ -13,6 +13,5 @@ class Orden:
         computadoras_str = ""
         for comp in self._computadoras:
             computadoras_str += comp.__str__() 
-        return "Orden: {}\nComputadoras: {}\n\n".format(self._id_orden,computadoras_str)
+        return "Orden: {}\n\nComputadoras: {}\n\n".format(self._id_orden,computadoras_str)
 
-        
