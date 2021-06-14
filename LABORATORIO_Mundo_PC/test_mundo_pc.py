@@ -18,3 +18,5 @@ m2 = Monitor('Acer',27)
 
 c2 = Computadora('Acer',m2,t2,r2)
 print(c2)     
+
+compus = [c1, c2]
