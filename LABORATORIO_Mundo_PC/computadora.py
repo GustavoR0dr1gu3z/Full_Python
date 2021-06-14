@@ -18,3 +18,4 @@ r1 = Raton('HP', 'USB')
 m1 = Monitor('HP',15)
 
 c1 = Computadora('HP',m1,t1,r1)
+print(c1)
