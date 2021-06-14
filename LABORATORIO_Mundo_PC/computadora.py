@@ -18,9 +18,19 @@ class Computadora:
 
 
 if __name__ == '__main__':
+
+# OBJETO 1
     t1 = Teclado('HP', 'USB')        
     r1 = Raton('HP', 'USB')
     m1 = Monitor('HP',15)
 
     c1 = Computadora('HP',m1,t1,r1)
     print(c1)
+
+# OBJETO 2
+    t2 = Teclado('HP', 'USB')        
+    r2 = Raton('HP', 'USB')
+    m2 = Monitor('HP',15)
+
+    c2 = Computadora('HP',m2,t2,r2)
+    print(c2)
