@@ -31,6 +31,23 @@ c4 = Computadora('Guena',m4,t4,r4)
 
 
 # Orden de las computadoras
-compus = [c1, c2]
-orden1 = Orden(compus)
+
+# ORDEN 1
+compus1 = [c1, c2]
+orden1 = Orden(compus1)
 print(orden1)
+
+# ORDEN 2
+compus2 = [c3, c4]
+orden2 = Orden(compus2)
+print(orden2)
+
+# ORDEN 3
+compus3 = [c1, c4]
+orden3 = Orden(compus3)
+print(orden3)
+
+# ORDEN 4
+compus4 = [c2, c3]
+orden4 = Orden(compus4)
+print(orden4)
