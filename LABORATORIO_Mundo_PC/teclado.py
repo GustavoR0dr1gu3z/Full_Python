@@ -5,4 +5,5 @@ class Teclado(DispositivoEntrada):
 
     def __init__(self):
         Teclado.contador_teclado +=1
-        self._id
+        self._id_teclado = Teclado.contador_teclado
+        super().__init__()
