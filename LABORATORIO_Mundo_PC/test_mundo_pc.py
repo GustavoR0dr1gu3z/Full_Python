@@ -41,6 +41,8 @@ print(orden1)
 compus2 = [c3, c4]
 orden2 = Orden(compus2)
 print(orden2)
+orden2.agregar(c1)
+print(orden2)
 
 # ORDEN 3
 compus3 = [c1, c4]
@@ -50,4 +52,6 @@ print(orden3)
 # ORDEN 4
 compus4 = [c2, c3]
 orden4 = Orden(compus4)
+print(orden4)
+orden4.agregar(c4)
 print(orden4)
