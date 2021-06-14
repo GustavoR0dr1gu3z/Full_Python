@@ -10,6 +10,4 @@ class Computadora:
         self._raton = raton 
 
     def __str__(self):
-        return f''' 
-        
-        '''
+        return "NombreComputadora: {}, ID_Computadora: {}"
