@@ -28,9 +28,9 @@ if __name__ == '__main__':
     print(c1)
 
 # OBJETO 2
-    t2 = Teclado('HP', 'USB')        
-    r2 = Raton('HP', 'USB')
-    m2 = Monitor('HP',15)
+    t2 = Teclado('Acer', 'Bluetooth')        
+    r2 = Raton('Acer', 'Bluetooth')
+    m2 = Monitor('Acer',27)
 
-    c2 = Computadora('HP',m2,t2,r2)
+    c2 = Computadora('Acer',m2,t2,r2)
     print(c2)
