@@ -33,4 +33,4 @@ if __name__ == '__main__':
     m2 = Monitor('Acer',27)
 
     c2 = Computadora('Acer',m2,t2,r2)
-    print(c2)
+    print(c2)     
