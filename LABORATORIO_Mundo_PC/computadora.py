@@ -8,3 +8,8 @@ class Computadora:
         self._monitor = monitor
         self._teclado = teclado
         self._raton = raton 
+
+    def __str__(self):
+        return f''' 
+        
+        '''
