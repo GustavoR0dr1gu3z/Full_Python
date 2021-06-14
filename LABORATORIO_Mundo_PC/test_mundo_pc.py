@@ -17,6 +17,18 @@ r2 = Raton('Acer', 'Bluetooth')
 m2 = Monitor('Acer',27)
 c2 = Computadora('Acer',m2,t2,r2)
 
+# OBJETO 3
+t3 = Teclado('Patito', 'Bluetooth')        
+r3 = Raton('Patito', 'USB')
+m3 = Monitor('Patito',50)
+c3 = Computadora('Patito',m3,t3,r3)
+
+# OBJETO 4
+t4 = Teclado('Guena', 'USB')        
+r4 = Raton('Guena', 'Bluetooth')
+m4 = Monitor('Guena',27)
+c4 = Computadora('Guena',m4,t4,r4)
+
 
 # Orden de las computadoras
 compus = [c1, c2]
