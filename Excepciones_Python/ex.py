@@ -7,7 +7,7 @@ b = 0
 try:
     resultado = a/b
 except ZeroDivisionError as e:
-    print("Ocurrio un error: {}".format(e))
+    print("Ocurrio un error: {}, {}".format(e, type(e)))
 except TypeError as e:
     print("Ocurrio un error: {}".format(e))
 except  Exception as e:
