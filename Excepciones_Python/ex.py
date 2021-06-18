@@ -13,8 +13,11 @@ except TypeError as e:
 except ValueError as e:
     print("Ocurrio un error: {}, {}".format(e, type(e)))
     '''
+# Bloque de exception general
 except  Exception as e:
     print("Ocurrio un error: {}, {}".format(e, type(e)))
+else:
+    print("NO SE ARROJÓ UNA EXCEPTION")    
 
 print("Resultado: {} ".format(resultado))
 print('Continuamos...')
