@@ -5,4 +5,4 @@
 try:
     10/0
 except Exception as e:
-    print("Dividion entre cero, no se puede")
+    print("Dividion entre cero, no se puede: {}".format(e))
