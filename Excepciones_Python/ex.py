@@ -1,6 +1,6 @@
 # Excepciones
 resultado = None 
-a = 10
+a = '10'
 b = 0
 
 # Division entre 0
