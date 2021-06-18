@@ -2,8 +2,8 @@
 resultado = None 
 
 try:
-    a = '10'
-    b = 0
+    a = int(input("Primer numero: "))
+    b = input("Segundo numero: ")
     resultado = a/b
 except ZeroDivisionError as e:
     print("Ocurrio un error: {}, {}".format(e, type(e)))
