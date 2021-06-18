@@ -1,4 +1,4 @@
-from numerosIdenticosException import NumerosIdenticosException
+from numIdenticosException import NumerosIdenticosException
 
 # Excepciones
 resultado = None 
@@ -9,7 +9,10 @@ try:
     # resultado = a/b
 
     # Raise nos permite lanzar o arrojar una exception
-    raise 
+    if a == b:
+        raise NumerosIdenticosException("Numeros Identicos")
+    
+    resultado = a/b
 
 
     '''    
