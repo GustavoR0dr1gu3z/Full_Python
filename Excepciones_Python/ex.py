@@ -3,7 +3,7 @@ resultado = None
 
 try:
     a = int(input("Primer numero: "))
-    b = input("Segundo numero: ")
+    b = int(input("Segundo numero: "))
     resultado = a/b
 '''    
 except ZeroDivisionError as e:
