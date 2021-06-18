@@ -10,6 +10,8 @@ except ZeroDivisionError as e:
     print("Ocurrio un error: {}".format(e))
 except TypeError as e:
     print("Ocurrio un error: {}".format(e))
-
+except  Exception as e:
+    print("Ocurrio un error: {}".format(e))
 
 print("Resultado: {} ".format(resultado))
+print('Continuamos...')
