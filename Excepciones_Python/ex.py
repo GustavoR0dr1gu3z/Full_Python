@@ -17,7 +17,10 @@ except ValueError as e:
 except  Exception as e:
     print("Ocurrio un error: {}, {}".format(e, type(e)))
 else:
-    print("NO SE ARROJÓ NINGUNA EXCEPCION")    
+    print("NO SE ARROJÓ NINGUNA EXCEPCION")   
+# SIEMPRE SE EJECUTA SE CUMPLA O NO LA EXCEPCION
+finally:
+    print("EJECUCION DEL BLOQUE FINALLY")
 
 print("Resultado: {} ".format(resultado))
 print('Continuamos...')
