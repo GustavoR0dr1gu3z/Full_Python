@@ -17,7 +17,7 @@ except ValueError as e:
 except  Exception as e:
     print("Ocurrio un error: {}, {}".format(e, type(e)))
 else:
-    print("NO SE ARROJÓ UNA EXCEPTION")    
+    print("NO SE ARROJÓ NINGUNA EXCEPTION")    
 
 print("Resultado: {} ".format(resultado))
 print('Continuamos...')
